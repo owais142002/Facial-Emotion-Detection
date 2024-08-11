@@ -25,4 +25,66 @@ This project is a Flask web application that detects facial emotions in real-tim
    ```
 
 2. **Set up a virtual environment:**
-```bash
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. **Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+## Usage
+
+1. **Run the Flask app:**
+   ```bash
+   python app.py
+   ```
+2. **Open your web browser and navigate to:**
+   ```bash
+   http://127.0.0.1:5000/
+   ```
+3. **Upload an image or start the webcam to detect emotions.**
+   
+## Training Your Own Model
+
+If you want to train your own model, follow these steps:
+1. **Prepare your dataset:**
+Ensure your dataset is labeled and formatted correctly for YOLOv8.
+2. **Train the model:**
+   ```bash
+   python train/train.py
+   ```
+The model after training will get stored in the runs directory, copy the .pt file of the model, and paste the file into the model directory.
+
+## Project Structure
+facial-emotion-detection/
+├── app.py
+├── requirements.txt
+├── templates/
+│   └── index.html
+├── static/
+│   └── uploads/
+├── models/
+│   └── model.pt
+├── train/
+│   └── train.py
+└── README.md
+
+app.py: The main Flask application file.
+
+requirements.txt: List of dependencies required for the project.
+
+templates/: Directory containing HTML templates.
+
+static/: Directory for static files like uploaded images.
+
+models/: Directory containing the trained YOLOv8 model.
+
+train/: Directory containing the training script.
+
+README.md: This documentation file.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Feel free to contribute to this project by opening issues or submitting pull requests. Happy coding!
