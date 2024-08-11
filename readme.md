@@ -57,18 +57,6 @@ Ensure your dataset is labeled and formatted correctly for YOLOv8.
 The model after training will get stored in the runs directory, copy the .pt file of the model, and paste the file into the model directory.
 
 ## Project Structure
-facial-emotion-detection/
-├── app.py
-├── requirements.txt
-├── templates/
-│   └── index.html
-├── static/
-│   └── uploads/
-├── models/
-│   └── model.pt
-├── train/
-│   └── train.py
-└── README.md
 
 app.py: The main Flask application file.
 
