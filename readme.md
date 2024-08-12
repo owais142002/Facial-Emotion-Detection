@@ -72,6 +72,10 @@ train/: Directory containing the training script.
 
 README.md: This documentation file.
 
+## Acknowledgments
+Roboflow provided us with a platform for dataset annotation.
+Ultralytics, for their pre-trained YOLOv8 weights.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
