@@ -74,6 +74,7 @@ README.md: This documentation file.
 
 ## Acknowledgments
 Roboflow provided us with a platform for dataset annotation.
+
 Ultralytics, for their pre-trained YOLOv8 weights.
 
 ## License
