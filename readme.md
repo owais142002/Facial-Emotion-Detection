@@ -12,6 +12,7 @@ This project is a Flask web application that detects facial emotions in real-tim
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Project Screenshots](#project-screenshots)
 - [Training Your Own Model](#training-your-own-model)
 - [Project Structure](#project-structure)
 - [License](#license)
@@ -44,7 +45,12 @@ This project is a Flask web application that detects facial emotions in real-tim
    http://127.0.0.1:5000/
    ```
 3. **Upload an image or start the webcam to detect emotions.**
-   
+
+## Project Screenshots
+![home](https://github.com/user-attachments/assets/3b93bac7-1621-4a4e-ba81-91121e07b96d)
+
+![emotion](https://github.com/user-attachments/assets/4994b6ab-7dfc-41cc-88d9-b690a8a25bcc)
+
 ## Training Your Own Model
 
 If you want to train your own model, follow these steps:
